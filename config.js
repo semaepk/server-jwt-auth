@@ -1,3 +1,3 @@
 module.exports = {
-    secret: "SECRET INDS studio"
+    secret: "SECRET_auth-key"
 }
