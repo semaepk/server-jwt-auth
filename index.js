@@ -10,7 +10,7 @@ app.use("/auth", authRouter)
 
 const start = async () => {
     try {
-        await mongoose.connect(`mongodb+srv://indsAdmin:xzx25b65x39s@cluster0.cvj66.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`)
+        await mongoose.connect(`mongodb+srv://indsAdmin:password@cluster0.cvj66.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`)
         app.listen(PORT, () => console.log(`server started on port ${PORT}`))
     } catch (e) {
         console.log(e)
